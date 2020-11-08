@@ -1,7 +1,33 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
-    <list default="true" id="fb26d4dd-0059-4917-906a-74d72eead038" name="Default Changelist" comment="" />
+    <list default="true" id="fb26d4dd-0059-4917-906a-74d72eead038" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ch1/array2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch2/echo4.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch2/pointer.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch2/pointer2.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/ch2/pointerEquals.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -10,19 +36,22 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Go File" />
         <option value="Go Application" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
   <component name="GOROOT" path="/usr/local/go" />
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
   <component name="ProjectId" id="1jfpk2B0jeZ7Brh9ZhqEmw4wQM2" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
   <component name="PropertiesComponent">
-    <property name="DefaultGoTemplateProperty" value="Go Application" />
+    <property name="DefaultGoTemplateProperty" value="Go File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="configurable.Global.GOPATH.is.expanded" value="true" />
@@ -34,48 +63,66 @@
   </component>
   <component name="RecentsManager">
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ch1" />
       <recent name="$PROJECT_DIR$/ch2" />
+      <recent name="$PROJECT_DIR$/ch1" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build ftoc.go">
-    <configuration name="go build boiling.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build pointer2.go">
+    <configuration name="go build array2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/ch2/boiling.go" />
+      <filePath value="$PROJECT_DIR$/ch1/array2.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build du2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build echo4.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+      <module name="go" />
+      <working_directory value="$PROJECT_DIR$" />
+      <parameters value="a bc def" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/ch2/echo4.go" />
+      <directory value="$PROJECT_DIR$" />
+      <method v="2" />
+    </configuration>
+    <configuration name="go build pointer2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/du2.go" />
+      <filePath value="$PROJECT_DIR$/ch2/pointer2.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build ftoc.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build pointerEquals.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/ch2/ftoc.go" />
+      <filePath value="$PROJECT_DIR$/ch2/pointerEquals.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build go/" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build pointer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
-      <kind value="DIRECTORY" />
+      <kind value="FILE" />
+      <filePath value="$PROJECT_DIR$/ch1/pointer.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
+    <list>
+      <item itemvalue="Go Build.go build array2.go" />
+      <item itemvalue="Go Build.go build echo4.go" />
+      <item itemvalue="Go Build.go build pointer.go" />
+      <item itemvalue="Go Build.go build pointerEquals.go" />
+      <item itemvalue="Go Build.go build pointer2.go" />
+    </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Go Build.go build ftoc.go" />
-        <item itemvalue="Go Build.go build boiling.go" />
-        <item itemvalue="Go Build.go build du2.go" />
-        <item itemvalue="Go Build.go build go/" />
+        <item itemvalue="Go Build.go build pointer2.go" />
+        <item itemvalue="Go Build.go build echo4.go" />
+        <item itemvalue="Go Build.go build pointerEquals.go" />
+        <item itemvalue="Go Build.go build pointer.go" />
+        <item itemvalue="Go Build.go build array2.go" />
       </list>
     </recent_temporary>
   </component>
@@ -83,54 +130,90 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
     <state x="640" y="202" key="#GOPATH" timestamp="1604205496902">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="640" y="202" key="#GOPATH/0.23.1680.1027@0.23.1680.1027" timestamp="1604205496902" />
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604819901479">
+      <screen x="0" y="0" width="1680" height="1050" />
+    </state>
+    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1604819901479" />
     <state x="555" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604205147355">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="555" y="345" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1604205147355" />
-    <state width="1638" height="267" key="GridCell.Tab.0.bottom" timestamp="1604226333747">
+    <state width="1638" height="364" key="GridCell.Tab.0.bottom" timestamp="1604821414009">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="267" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604226333747" />
-    <state width="1638" height="267" key="GridCell.Tab.0.center" timestamp="1604226333746">
+    <state width="1638" height="364" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604821414009" />
+    <state width="1638" height="364" key="GridCell.Tab.0.center" timestamp="1604821414008">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="267" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604226333746" />
-    <state width="1638" height="267" key="GridCell.Tab.0.left" timestamp="1604226333744">
+    <state width="1638" height="364" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604821414008" />
+    <state width="1638" height="364" key="GridCell.Tab.0.left" timestamp="1604821414007">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="267" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604226333744" />
-    <state width="1638" height="267" key="GridCell.Tab.0.right" timestamp="1604226333746">
+    <state width="1638" height="364" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604821414007" />
+    <state width="1638" height="364" key="GridCell.Tab.0.right" timestamp="1604821414008">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="267" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604226333746" />
-    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1604226136448">
+    <state width="1638" height="364" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604821414008" />
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1604821414012">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604226136448" />
-    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1604226136447">
+    <state width="1638" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604821414012" />
+    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1604821414011">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604226136447" />
-    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1604226136447">
+    <state width="1638" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604821414011" />
+    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1604821414009">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604226136447" />
-    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1604226136447">
+    <state width="1638" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604821414009" />
+    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1604821414011">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604226136447" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1604225719890">
+    <state width="1638" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604821414011" />
+    <state width="500" height="445" key="SwitcherDM" timestamp="1604823132555">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
-    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1604225719890" />
+    <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1604823132555" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1604225972000">
       <screen x="0" y="0" width="1680" height="1050" />
     </state>
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1604225972000" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/ch1/array2.go</url>
+          <line>7</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DlvLineBreakpoint">
+          <url>file://$PROJECT_DIR$/ch2/echo4.go</url>
+          <line>13</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+    <watches-manager>
+      <configuration name="GoApplicationRunConfiguration">
+        <watch expression="n" language="go" />
+      </configuration>
+    </watches-manager>
   </component>
 </project>
