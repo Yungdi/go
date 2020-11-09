@@ -20,13 +20,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb26d4dd-0059-4917-906a-74d72eead038" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ch1/array2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch2/echo4.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch2/pointer.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch2/pointer2.go" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/ch2/pointerEquals.go" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/sample/checkDBConnection.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -67,12 +62,13 @@
       <recent name="$PROJECT_DIR$/ch1" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build pointer2.go">
-    <configuration name="go build array2.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="Go Build.go build checkDBConnection.go">
+    <configuration name="go build checkDBConnection.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
+      <parameters value="dev_yunjin_jang R^zH2cty?!m7Dz#2 10.107.0.40 3306 wmp_deal prod" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/ch1/array2.go" />
+      <filePath value="$PROJECT_DIR$/sample/checkDBConnection.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
@@ -110,19 +106,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Go Build.go build array2.go" />
       <item itemvalue="Go Build.go build echo4.go" />
       <item itemvalue="Go Build.go build pointer.go" />
       <item itemvalue="Go Build.go build pointerEquals.go" />
       <item itemvalue="Go Build.go build pointer2.go" />
+      <item itemvalue="Go Build.go build checkDBConnection.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build checkDBConnection.go" />
         <item itemvalue="Go Build.go build pointer2.go" />
         <item itemvalue="Go Build.go build echo4.go" />
         <item itemvalue="Go Build.go build pointerEquals.go" />
         <item itemvalue="Go Build.go build pointer.go" />
-        <item itemvalue="Go Build.go build array2.go" />
       </list>
     </recent_temporary>
   </component>
@@ -146,53 +142,81 @@
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="640" y="202" key="#GOPATH/0.23.1680.1027@0.23.1680.1027" timestamp="1604205496902" />
-    <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604819901479">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state x="423" y="745" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1604905509807">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state x="423" y="745" key="#com.intellij.execution.impl.EditConfigurationsDialog/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1604905509807" />
     <state x="304" y="187" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1680.1050@0.0.1680.1050" timestamp="1604819901479" />
     <state x="555" y="345" key="#com.intellij.fileTypes.FileTypeChooser" timestamp="1604205147355">
       <screen x="0" y="23" width="1680" height="1027" />
     </state>
     <state x="555" y="345" key="#com.intellij.fileTypes.FileTypeChooser/0.23.1680.1027@0.23.1680.1027" timestamp="1604205147355" />
-    <state width="1638" height="364" key="GridCell.Tab.0.bottom" timestamp="1604821414009">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="2518" height="520" key="GridCell.Tab.0.bottom" timestamp="1604911595557">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604821414009" />
-    <state width="1638" height="364" key="GridCell.Tab.0.center" timestamp="1604821414008">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="2518" height="520" key="GridCell.Tab.0.bottom/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1604911595557" />
+    <state width="2518" height="520" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.0.2560.1440@0.0.2560.1440" timestamp="1604905534393" />
+    <state width="2518" height="520" key="GridCell.Tab.0.bottom/-2560.23.2560.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1604909227772" />
+    <state width="1638" height="267" key="GridCell.Tab.0.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604828565768" />
+    <state width="2518" height="520" key="GridCell.Tab.0.center" timestamp="1604911595555">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604821414008" />
-    <state width="1638" height="364" key="GridCell.Tab.0.left" timestamp="1604821414007">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="2518" height="520" key="GridCell.Tab.0.center/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1604911595555" />
+    <state width="2518" height="520" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.0.2560.1440@0.0.2560.1440" timestamp="1604905534391" />
+    <state width="2518" height="520" key="GridCell.Tab.0.center/-2560.23.2560.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1604909227770" />
+    <state width="1638" height="267" key="GridCell.Tab.0.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604828565766" />
+    <state width="2518" height="520" key="GridCell.Tab.0.left" timestamp="1604911595554">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604821414007" />
-    <state width="1638" height="364" key="GridCell.Tab.0.right" timestamp="1604821414008">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="2518" height="520" key="GridCell.Tab.0.left/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1604911595554" />
+    <state width="2518" height="520" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.0.2560.1440@0.0.2560.1440" timestamp="1604905534389" />
+    <state width="2518" height="520" key="GridCell.Tab.0.left/-2560.23.2560.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1604909227769" />
+    <state width="1638" height="267" key="GridCell.Tab.0.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604828565765" />
+    <state width="2518" height="520" key="GridCell.Tab.0.right" timestamp="1604911595556">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
-    <state width="1638" height="364" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604821414008" />
-    <state width="1638" height="364" key="GridCell.Tab.1.bottom" timestamp="1604821414012">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="2518" height="520" key="GridCell.Tab.0.right/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1604911595556" />
+    <state width="2518" height="520" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.0.2560.1440@0.0.2560.1440" timestamp="1604905534392" />
+    <state width="2518" height="520" key="GridCell.Tab.0.right/-2560.23.2560.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1604909227771" />
+    <state width="1638" height="267" key="GridCell.Tab.0.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604828565767" />
+    <state width="2518" height="520" key="GridCell.Tab.1.bottom" timestamp="1604911595559">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="2518" height="520" key="GridCell.Tab.1.bottom/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1604911595559" />
+    <state width="2518" height="520" key="GridCell.Tab.1.bottom/-2560.23.2560.1417/0.0.2560.1440@0.0.2560.1440" timestamp="1604905534558" />
+    <state width="2518" height="520" key="GridCell.Tab.1.bottom/-2560.23.2560.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1604909227686" />
     <state width="1638" height="364" key="GridCell.Tab.1.bottom/0.0.1680.1050@0.0.1680.1050" timestamp="1604821414012" />
-    <state width="1638" height="364" key="GridCell.Tab.1.center" timestamp="1604821414011">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="2518" height="520" key="GridCell.Tab.1.center" timestamp="1604911595558">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="2518" height="520" key="GridCell.Tab.1.center/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1604911595558" />
+    <state width="2518" height="520" key="GridCell.Tab.1.center/-2560.23.2560.1417/0.0.2560.1440@0.0.2560.1440" timestamp="1604905534557" />
+    <state width="2518" height="520" key="GridCell.Tab.1.center/-2560.23.2560.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1604909227685" />
     <state width="1638" height="364" key="GridCell.Tab.1.center/0.0.1680.1050@0.0.1680.1050" timestamp="1604821414011" />
-    <state width="1638" height="364" key="GridCell.Tab.1.left" timestamp="1604821414009">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="2518" height="520" key="GridCell.Tab.1.left" timestamp="1604911595557">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="2518" height="520" key="GridCell.Tab.1.left/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1604911595557" />
+    <state width="2518" height="520" key="GridCell.Tab.1.left/-2560.23.2560.1417/0.0.2560.1440@0.0.2560.1440" timestamp="1604905534556" />
+    <state width="2518" height="520" key="GridCell.Tab.1.left/-2560.23.2560.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1604909227684" />
     <state width="1638" height="364" key="GridCell.Tab.1.left/0.0.1680.1050@0.0.1680.1050" timestamp="1604821414009" />
-    <state width="1638" height="364" key="GridCell.Tab.1.right" timestamp="1604821414011">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="2518" height="520" key="GridCell.Tab.1.right" timestamp="1604911595559">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="2518" height="520" key="GridCell.Tab.1.right/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1604911595559" />
+    <state width="2518" height="520" key="GridCell.Tab.1.right/-2560.23.2560.1417/0.0.2560.1440@0.0.2560.1440" timestamp="1604905534558" />
+    <state width="2518" height="520" key="GridCell.Tab.1.right/-2560.23.2560.1417/0.23.2560.1417@0.23.2560.1417" timestamp="1604909227685" />
     <state width="1638" height="364" key="GridCell.Tab.1.right/0.0.1680.1050@0.0.1680.1050" timestamp="1604821414011" />
-    <state width="500" height="445" key="SwitcherDM" timestamp="1604823132555">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="762" height="611" key="SwitcherDM" timestamp="1604909011740">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state width="762" height="611" key="SwitcherDM/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1604909011740" />
     <state width="500" height="445" key="SwitcherDM/0.0.1680.1050@0.0.1680.1050" timestamp="1604823132555" />
-    <state x="505" y="233" width="670" height="676" key="search.everywhere.popup" timestamp="1604225972000">
-      <screen x="0" y="0" width="1680" height="1050" />
+    <state width="762" height="611" key="SwitcherDM/0.0.2560.1440@0.0.2560.1440" timestamp="1604899157376" />
+    <state x="770" y="320" width="1021" height="928" key="search.everywhere.popup" timestamp="1604901846337">
+      <screen x="0" y="0" width="2560" height="1440" />
     </state>
+    <state x="770" y="320" width="1021" height="928" key="search.everywhere.popup/-2560.0.2560.1440/0.0.2560.1440@0.0.2560.1440" timestamp="1604901846337" />
     <state x="505" y="233" width="670" height="676" key="search.everywhere.popup/0.0.1680.1050@0.0.1680.1050" timestamp="1604225972000" />
   </component>
   <component name="XDebuggerManager">
