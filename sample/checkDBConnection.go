@@ -3,10 +3,10 @@ package main
 import (
 	"database/sql"
 	"fmt"
+	_ "github.com/go-sql-driver/mysql"
 	"log"
 	"os"
 )
-import _ "github.com/go-sql-driver/mysql"
 
 func main() {
 	arguments := os.Args[1:]
