@@ -20,9 +20,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="fb26d4dd-0059-4917-906a-74d72eead038" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ch3/strings.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/sample/checkDBConnection.go" beforeDir="false" afterPath="$PROJECT_DIR$/sample/checkDBConnection.go" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -63,7 +63,7 @@
       <recent name="$PROJECT_DIR$/ch1" />
     </key>
   </component>
-  <component name="RunManager" selected="Go Build.go build checkDBConnection.go">
+  <component name="RunManager" selected="Go Build.go build strings.go">
     <configuration name="go build checkDBConnection.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
@@ -98,28 +98,28 @@
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
-    <configuration name="go build pointer.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
+    <configuration name="go build strings.go" type="GoApplicationRunConfiguration" factoryName="Go Application" temporary="true" nameIsGenerated="true">
       <module name="go" />
       <working_directory value="$PROJECT_DIR$" />
       <kind value="FILE" />
-      <filePath value="$PROJECT_DIR$/ch1/pointer.go" />
+      <filePath value="$PROJECT_DIR$/ch3/strings.go" />
       <directory value="$PROJECT_DIR$" />
       <method v="2" />
     </configuration>
     <list>
       <item itemvalue="Go Build.go build echo4.go" />
-      <item itemvalue="Go Build.go build pointer.go" />
       <item itemvalue="Go Build.go build pointerEquals.go" />
       <item itemvalue="Go Build.go build pointer2.go" />
       <item itemvalue="Go Build.go build checkDBConnection.go" />
+      <item itemvalue="Go Build.go build strings.go" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Go Build.go build strings.go" />
         <item itemvalue="Go Build.go build checkDBConnection.go" />
         <item itemvalue="Go Build.go build pointer2.go" />
         <item itemvalue="Go Build.go build echo4.go" />
         <item itemvalue="Go Build.go build pointerEquals.go" />
-        <item itemvalue="Go Build.go build pointer.go" />
       </list>
     </recent_temporary>
   </component>
