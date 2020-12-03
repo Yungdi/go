@@ -9,24 +9,38 @@ import (
 )
 
 func main() {
-	arguments := os.Args[1:]
-	lengthOfArguments := len(arguments)
-	if lengthOfArguments != 6 {
+	const ValidLengthOfArgs = 6
+	const StartIndexOfProgramArgs = 1
+	const DriverName = "mysql"
+
+	const (
+		IndexOfUsername = iota
+		IndexOfPassword
+		IndexOfUrl
+		IndexOfPort
+		IndexOfDatabase
+		IndexOfTableName
+	)
+
+	arguments := os.Args[StartIndexOfProgramArgs:]
+	lengthOfArgs := len(arguments)
+	if lengthOfArgs != ValidLengthOfArgs {
 		log.Fatal("arguments is invalid.\n" +
 			"usage: $ go checkDBConnection username password url port database table")
 	}
-	username, password, url, port, database := arguments[0], arguments[1], arguments[2], arguments[3], arguments[4]
+	username, password, url, port, database := arguments[IndexOfUsername], arguments[IndexOfPassword], arguments[IndexOfUrl], arguments[IndexOfPort], arguments[IndexOfDatabase]
 	dataSourceName := username + ":" + password + "@tcp(" + url + ":" + port + ")/" + database
-	table := arguments[5]
+	table := arguments[IndexOfTableName]
 
-	connection, error1 := sql.Open("mysql", dataSourceName)
-	if error1 != nil {
-		log.Fatal(error1)
+	connection, errOfConnection := sql.Open(DriverName, dataSourceName)
+	if errOfConnection != nil {
+		log.Fatal(errOfConnection)
 	} else {
-		connection.SetMaxOpenConns(1)
-		rows, error2 := connection.Query("SELECT * FROM " + table + " LIMIT 1")
-		if error2 != nil {
-			log.Fatal(error2)
+		const MaxConnectionCount = 1
+		connection.SetMaxOpenConns(MaxConnectionCount)
+		rows, errOfQuery := connection.Query("SELECT * FROM " + table + " LIMIT 1")
+		if errOfQuery != nil {
+			log.Fatal(errOfQuery)
 		} else {
 			defer rows.Close()
 			fmt.Println("Row list: ")
